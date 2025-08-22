@@ -1,3 +1,4 @@
+//make sure infobox retains the theme
 const themeToggle = document.getElementById('themeToggle');
 
 function setTheme(theme) {
