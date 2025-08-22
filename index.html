@@ -1,22 +1,53 @@
 <!DOCTYPE html>
+<html lang="en" data-theme="light">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BetaCity - Home</title>
+  <link rel="stylesheet" href="/src/mstyle.css">
 </head>
 <body>
-  <h1>BetaCity</h1>
-  <h2>This site is in development, it might get slow updates but it will get updates.</h2>
-  <br>
-  <h3>Current list of changes that need to be made fast:</h3>
-  <ul>
-    <li>an actual UI</li>
-    <li>navbar</li>
-    <li>Download page</li>
-    <li>Infoboxes</li>
-    <li>A footer</li>
-    <li>Changelog page</li>
-    <li>A wiki feature that tells you about builds.</li>
-  </ul>
-  <br>
-  <p>These changes will be made soon.</p>
+  <nav>
+    <span class="site-title">BetaCity</span>
+    <div class="nav-links">
+      <a href="/index.html">Home</a>
+      <a href="/downloads.html">Downloads</a>
+      <a href="/wiki/index.html">Wiki</a>
+      <a href="/status.html">Status</a>
+      <a href="/changelog.html">Changelog</a>
+      <a href="/contribute.html">Contribute</a>
+      <button class="toggle-btn" id="themeToggle">🌙</button>
+    </div>
+  </nav>
+  <main>
+    <div class="content-sections">
+      <section id="welcome">
+        <h2>Welcome to BetaCity!</h2>
+        <p>This site is under construction</p>
+      </section>
+      
+      <section id="what-site-does">
+        <h2>What BetaCity does</h2>
+        <ul>
+          <li>Helps you find Beta Builds</li>
+          <li>Has a wiki integration to read about builds.</li>
+          <li>Get steps on how to install it in a virtual machine</li>
+          <li>Contributions and Fourms</li>
+        </ul>
+         <p>Want to help us? <a href="/contribute.html"><button class="btn">Contribute Here!</button></p>
+      </section>
+    </div>
+
+    
+    <aside class="infobox">
+      <h2>Featured Builds/Bootlegs</h2>
+      <h3>Windows 7 Build 7000</h3>
+      <p>This is a beta build of Windows 7.</p>
+    </aside>
+  </main>
+  <footer>
+    &copy; 2025 Wintuber Union. All rights reserved.
+  </footer>
+  <script src="/src/main.js"></script>
 </body>
 </html>
