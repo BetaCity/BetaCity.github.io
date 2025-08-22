@@ -63,7 +63,7 @@ nav .nav-links a:hover {
   color: var(--accent-dark);
 }
 .toggle-btn {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.6rem;
   background: var(--glass-bg);
   border: 1px solid var(--glass-border);
   border-radius: 2rem;
