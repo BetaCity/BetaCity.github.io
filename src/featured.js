@@ -27,15 +27,15 @@ const builds = [
   },
   {
     name: "Windows Whistler Build 2428",
-    description: "this is a test will update later",
-    wiki: "https://example.com/wiki/mystery-edition",
-    page: "https://example.com/builds/mystery-edition"
+    description: "This is a beta build of Windows Whistler (Windows XP), which has some UI overhauls.",
+    wiki: "https://BetaCity.github.io/wiki/Windows_Whistler_Build_2428.html",
+    page: "https://BetaCity.github.io/downloads/Windows-XP/Whistler/Post-Luna.html"
   },
   {
-    name: "test test test",
-    description: "this is yet another test",
-    wiki: "https://example.com/wiki/beta-v2-0",
-    page: "https://example.com/builds/beta-v2-0"
+    name: "Windows 7 Build 6469",
+    description: "This build is the first leaked build of Windows 7",
+    wiki: "https://BetaCity.github.io/wiki/Windows_7_Build_6469.html",
+    page: "https://BetaCity.github.io/downloads/Windows-7/Milestone-1.html"
   }
 ];
 
