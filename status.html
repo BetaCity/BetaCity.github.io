@@ -1,13 +1,51 @@
 <!DOCTYPE html>
+<html lang="en" data-theme="light">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BetaCity - Status</title>
+  <link rel="stylesheet" href="src/mstyle.css">
 </head>
 <body>
-  <h1>BetaCity Status</h1>
-  <h2>This will tell you the current status of all BetaCity services</h2>
-  <br>
-  <p>Website: Online</p>
-  <p>Github Pages commits: having issues</p>
-  <p>Download Server: not on right now</p>
+  <nav>
+    <span class="site-title">BetaCity</span>
+    <div class="nav-links">
+      <a href="/index.html">Home</a>
+      <a href="/downloads.html">Downloads</a>
+      <a href="/wiki/index.html">Wiki</a>
+      <a href="/status.html">Status</a>
+      <a href="/changelog.html">Changelog</a>
+      <a href="/contribute.html">Contribute</a>
+      <button class="toggle-btn" id="themeToggle">🌙</button>
+    </div>
+  </nav>
+  <main>
+    <div class="content-sections">
+      <section id="welcome">
+        <h2>BetaCity Status</h2>
+        <p>This site is used for checking the BetaCity status to make sure the site is working.</p>
+      </section>
+
+      <section id="status-check">
+        <h3>Status Check</h3>
+        <br>
+        <p style=color:green>Website: Online</p>
+        <p style=color:green>Github Commits: Working</p>
+        <p style=color:green>Server 1: Online</p>
+
+      </section>
+    </div>
+
+    
+    <aside class="infobox" id="infobox">
+      <!-- For Featured JavaScript file -->
+      
+    </aside>
+    <script src="/src/featured.js"></script>
+  </main>
+  <footer>
+    &copy; 2025 Wintuber Union. All rights reserved.
+  </footer>
+  <script src="/src/main.js"></script>
 </body>
 </html>
