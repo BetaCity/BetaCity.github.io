@@ -36,7 +36,13 @@ const builds = [
     description: "This build is the first leaked build of Windows 7",
     wiki: "https://BetaCity.github.io/wiki/Windows_7_Build_6469.html",
     page: "https://BetaCity.github.io/downloads/Windows-7/Milestone-1.html"
-  }
+  },
+  {
+    name: "Windows 8 build 7776",
+    description: "This is a Milestone 1 build of Windows 8, that's only for AMD64. It also adds the Internet Explorer 9 and an early version of the Microsoft Store",
+    wiki: "https://BetaCity.github.io/wiki/Windows_8_Build_7776.html",
+    page: "https://BetaCity.github.io/downloads/Windows-8/Milestone-1.html",
+  },
 ];
 
 function showRandomBuild() {
