@@ -21,13 +21,13 @@ if (savedTheme) {
 const builds = [
   {
     name: "Windows 7 Build 7000",
-    description: "This is a build of Windows 7",
+    description: "This is the official Beta build of Windows 7.",
     wiki: "https://BetaCity.github.io/wiki/Windows_7_Build_7000.html",
     page: "https://BetaCity.github.io/downloads/Windows-7/Beta.html"
   },
   {
     name: "Windows Whistler Build 2428",
-    description: "This is a beta build of Windows Whistler (Windows XP), which has some UI overhauls.",
+    description: "This is a beta build of Windows Whistler (Windows XP), which has some UI overhauls. It also introduced the Luna theme.",
     wiki: "https://BetaCity.github.io/wiki/Windows_Whistler_Build_2428.html",
     page: "https://BetaCity.github.io/downloads/Windows-XP/Whistler/Post-Luna.html"
   },
