@@ -43,8 +43,17 @@ const builds = [
     wiki: "https://BetaCity.github.io/wiki/Windows_8_Build_7776.html",
     page: "https://BetaCity.github.io/downloads/Windows-8/Milestone-1.html",
   },
+
+  {
+    name: "Windows 8 Build 7908",
+    description: "This is a Milestone 2 build of Windows 8 that has a new wallpaper and adds the new modern task manager",
+    wiki: "https://BetaCity.github.io/wiki/Windows_8_Build_7908.html",
+    page: "https://BetaCity.github.io/downloads/Windows-8/Milestone-2.html",
+  },
 ];
 
+
+//show the user a random build from the infobox.
 function showRandomBuild() {
   const infobox = document.getElementById('infobox');
   const randomBuild = builds[Math.floor(Math.random() * builds.length)];
